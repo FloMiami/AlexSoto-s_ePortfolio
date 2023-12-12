@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My E-Portfolio</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="about.html">About Me</a></li>
+    </ul>
+  </nav>
+  <main>
+    <img src="images/profile-picture.jpg" alt="Profile Picture">
+    <p>Welcome to my e-portfolio! Here you can learn about my skills, interests, and projects. Please feel free to explore the different sections of my portfolio.</p>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Name</p>
+  </footer>
+</body>
+</html>
