@@ -1,0 +1,90 @@
+body {
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 1em;
+}
+
+nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+nav li {
+  padding: 1em;
+}
+
+nav li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+}
+
+.luxury-text {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.luxury-background {
+  background-image: url(images/luxury-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
